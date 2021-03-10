@@ -38,6 +38,8 @@ jobs:
         run: $RUN hack/ci/e2e.sh
       - name: Get logs
         run: $RUN hack/ci/logs.sh
+      - name: Fetch logs
+        run: $RUN cat ${{ env.CONTAINER_NAME }}.logs > ${{ env.CONTAINER_NAME }}.logs 
       - uses: actions/upload-artifact@v2
         with:
           name: e2e-fedora-logs
