@@ -14,6 +14,7 @@
 # limitations under the License.
 
 set -euo pipefail
+set -x
 
 source hack/ci/env.sh
 
