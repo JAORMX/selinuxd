@@ -2,7 +2,7 @@ package semanage
 
 /*
 #cgo CFLAGS: -I/usr/include/semanage
-#cgo LDFLAGS: -L/usr/lib64 -lsemanage -lsepol
+#cgo LDFLAGS: -L/usr/lib64 -laudit /usr/lib64/libsemanage.a /usr/lib64/libsepol.a /usr/lib64/libselinux.a /usr/lib64/libbz2.a
 #include <semanage.h>
 #include <stdlib.h>
 
