@@ -4,10 +4,10 @@ github.com/cenkalti/backoff/v4
 # github.com/fsnotify/fsnotify v1.5.1
 ## explicit
 github.com/fsnotify/fsnotify
-# github.com/go-logr/logr v1.2.1
+# github.com/go-logr/logr v1.2.2
 ## explicit
 github.com/go-logr/logr
-# github.com/go-logr/zapr v1.2.0
+# github.com/go-logr/zapr v1.2.2
 ## explicit
 github.com/go-logr/zapr
 # github.com/gorilla/mux v1.8.0
